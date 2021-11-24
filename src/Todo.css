@@ -1,0 +1,61 @@
+ul li {
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #C0D6DF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: 0.5s;
+    width: 100%;
+    position: relative;
+}
+
+ul li:nth-child(odd) {
+    background-color: #e5d8bc;
+}
+
+ul li.unchecked:hover {
+    background-color: rgb(238, 170, 145);
+}
+
+/* effects for checked items  */
+
+ul li.checked {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+ul li.checked:before {
+    content: '';
+    position: absolute;
+    left: 2rem;
+    border-color: rgb(36, 35, 35);
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    height: 18px;
+    width: 7px;
+}
+
+.close-btn {
+    position: absolute;
+    left: calc(100% - 60px);
+    opacity: 0.3;
+    line-height: 1;
+    transition: transform 0.25s;
+    transform-origin: 50% 42%;
+}
+
+.close-btn:before {
+    content: "\d7";
+    font-size: 30px;
+    position: relative;
+    /* margin:0 auto; */
+    top: -3px;
+}
+
+.close-btn:hover {
+    opacity: 1;
+    transform: rotate(90deg);
+}

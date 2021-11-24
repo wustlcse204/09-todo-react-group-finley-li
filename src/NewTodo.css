@@ -1,0 +1,42 @@
+header {
+    width: 100%;
+    background: rgb(89, 158, 201);
+    background: radial-gradient(circle, rgba(89, 158, 201, 1) 0%, rgba(160, 208, 214, 1) 100%);
+    color: rgb(34, 31, 31);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.add-item-input {
+    width: 80%;
+    height: 30px;
+    font-family: Ubuntu, sans-serif;
+    border: none;
+}
+
+.add-event-btn {
+    align-items: center;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Ubuntu, sans-serif;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    margin-left: 5px;
+    transition: background-color .2s, background-position .2s;
+}
+
+.add-event-btn:hover {
+    background-position: -20px -20px;
+}
