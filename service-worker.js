@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/09-todo-react-finleylee2507/precache-manifest.d423e19d0b44d24c6b51be79bdd1a12c.js"
+  "/09-todo-react-finley-li/precache-manifest.8717ef9978dbe975f6c8c8a8433b3554.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/09-todo-react-finleylee2507/index.html", {
+workbox.routing.registerNavigationRoute("/09-todo-react-finley-li/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
