@@ -1,13 +1,13 @@
 {
-  "main.css": "/09-todo-react-finley-li/static/css/main.1af24ae9.chunk.css",
-  "main.js": "/09-todo-react-finley-li/static/js/main.ce442068.chunk.js",
-  "main.js.map": "/09-todo-react-finley-li/static/js/main.ce442068.chunk.js.map",
-  "static/js/1.0cdd6f18.chunk.js": "/09-todo-react-finley-li/static/js/1.0cdd6f18.chunk.js",
-  "static/js/1.0cdd6f18.chunk.js.map": "/09-todo-react-finley-li/static/js/1.0cdd6f18.chunk.js.map",
-  "runtime~main.js": "/09-todo-react-finley-li/static/js/runtime~main.5c93265e.js",
-  "runtime~main.js.map": "/09-todo-react-finley-li/static/js/runtime~main.5c93265e.js.map",
-  "static/css/main.1af24ae9.chunk.css.map": "/09-todo-react-finley-li/static/css/main.1af24ae9.chunk.css.map",
-  "index.html": "/09-todo-react-finley-li/index.html",
-  "precache-manifest.8717ef9978dbe975f6c8c8a8433b3554.js": "/09-todo-react-finley-li/precache-manifest.8717ef9978dbe975f6c8c8a8433b3554.js",
-  "service-worker.js": "/09-todo-react-finley-li/service-worker.js"
+  "main.css": "/09-todo-react-finleylee2507/static/css/main.1af24ae9.chunk.css",
+  "main.js": "/09-todo-react-finleylee2507/static/js/main.ce442068.chunk.js",
+  "main.js.map": "/09-todo-react-finleylee2507/static/js/main.ce442068.chunk.js.map",
+  "static/js/1.0cdd6f18.chunk.js": "/09-todo-react-finleylee2507/static/js/1.0cdd6f18.chunk.js",
+  "static/js/1.0cdd6f18.chunk.js.map": "/09-todo-react-finleylee2507/static/js/1.0cdd6f18.chunk.js.map",
+  "runtime~main.js": "/09-todo-react-finleylee2507/static/js/runtime~main.8f5becff.js",
+  "runtime~main.js.map": "/09-todo-react-finleylee2507/static/js/runtime~main.8f5becff.js.map",
+  "static/css/main.1af24ae9.chunk.css.map": "/09-todo-react-finleylee2507/static/css/main.1af24ae9.chunk.css.map",
+  "index.html": "/09-todo-react-finleylee2507/index.html",
+  "precache-manifest.d423e19d0b44d24c6b51be79bdd1a12c.js": "/09-todo-react-finleylee2507/precache-manifest.d423e19d0b44d24c6b51be79bdd1a12c.js",
+  "service-worker.js": "/09-todo-react-finleylee2507/service-worker.js"
 }
