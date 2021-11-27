@@ -31,19 +31,6 @@ body {
 
 
 
-.to-do-list-container {
-    width: 100%;
-}
-
-
-
-ul {
-    list-style-type: none;
-    width: 100%;
-    padding-left: 0;
-    text-align: center;
-    position: relative;
-}
 
 
 @media screen and (min-width:781px) and (max-width:1031px) {

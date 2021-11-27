@@ -2,15 +2,20 @@ import React, { Component } from 'react';
 import './Todo.css';
 
 class Todo extends Component {
-  render() {
-    return (
-      <div>
-        <li className="unchecked">Item1
-        <span className="close-btn"></span>
-        </li>
-       
 
-      </div>
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    
+    return (
+
+      <li className={this.props.todoData.completed ? "checked" : "unchecked"} onClick={() => { this.props.toggleEventHandler(this.props.todoData.id, this.props.todoData.completed) }}>{this.props.todoData.text}
+        <span className="close-btn" onClick={() => { this.props.deleteEventHandler(this.props.todoData.id) }}></span>
+      </li>
+
+
+
 
     );
   }

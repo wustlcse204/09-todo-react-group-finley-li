@@ -40,3 +40,13 @@ header {
 .add-event-btn:hover {
     background-position: -20px -20px;
 }
+
+.drop-down {
+
+    position: relative;
+    top: 10px;
+}
+
+select#sort {
+    border-radius: 3px;
+}
